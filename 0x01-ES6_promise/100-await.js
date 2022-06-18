@@ -1,4 +1,3 @@
-export default asyncUploadUser;
 import { uploadPhoto, createUser } from './util';
 
 const asyncUploadUser = async () => {
