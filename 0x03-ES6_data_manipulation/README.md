@@ -1,6 +1,6 @@
 # ES6 data manipulation
 
-![Array](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/6ab7bec4727cb5c91257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220621T135736Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b41122d80a62464be5e416d21facae5cee9283e8e1739d4cb113c3477f35f019)
+![Array](https://uploads-ssl.webflow.com/60e3caa50ec2a701bbf83598/61723cb3ae4b46c15fa4b430_Untitled%20design-364-min-2.jpg)
 
 ## Resources
 Read or watch:
