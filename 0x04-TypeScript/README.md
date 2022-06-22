@@ -7,7 +7,7 @@ Read or Watch
 * [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 * [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
-## Learning Objectives
+***Learning Objectives***
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 * Basic types in Typecript
 * Interfaces, Classes, and functions
@@ -18,7 +18,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * How to use an ambient Namespace to import an external library
 * Basic nominal typing with Typescript
 
-## Requirements
+***Requirements***
 * Allowed editors: vi, vim, emacs, Visual Studio Code
 * All your files should end with a new line
 * All your files will be transpiled on Ubuntu 18.04
@@ -27,10 +27,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * Your code should use the ts extension when possible
 * The Typescript compiler should not show any warning or error when compiling your code
 
-## Configuration Files
+*** Configuration Files ***
 Please use these files for the following tasks
 
-### package.json
+***package.json***
 <details>
   <summary>Click to show/hide file contents</summary>
 
@@ -70,7 +70,7 @@ Please use these files for the following tasks
 ```
 </details>
 
-### .eslintrc.js
+***.eslintrc.js***
 
 <details>
   <summary>Click to show/hide file contents</summary>
@@ -92,7 +92,7 @@ module.exports =  {
  
 </details>
 
-### tsconfig.json
+***tsconfig.json***
 <details>
   <summary>Click to show/hide file contents</summary>
   
@@ -111,7 +111,7 @@ module.exports =  {
 ```
 </details>
 
-### webpack.config.js
+***webpack.config.js***
 <details>
   <summary>Click to show/hide file contents</summary>
 
@@ -159,14 +159,14 @@ module.exports = {
 
 # Tasks
 
-0. Creating an interface for a student
+`0. Creating an interface for a student`
 
-Copy the following configuration files (provided above) into the task_0 directory: package.json, .eslintrc.js, tsconfig.json, webpack.config.js
+Copy the following configuration files (provided above) into the `task_0 directory: package.json, .eslintrc.js, tsconfig.json, webpack.config.js`
 
-Write your code in the main.ts file:
+Write your code in the `main.ts` file:
 
-* Write an interface named Student that accepts the following elements: firstName(string), lastName(string), age(number), and location(string)
-* Create two students, and create an array named studentsList containing the two variables
+* Write an interface named Student that accepts the following elements: `firstName(string), lastName(string), age(number), and location(string)`
+* Create two students, and create an array named `studentsList` containing the two variables
 * Using Vanilla Javascript, render a table and for each elements in the array, append a new row to the table
 * Each row should contain the first name of the student and the location
 ### Requirements:
@@ -175,8 +175,8 @@ Write your code in the main.ts file:
 * Every variable should use TypeScript when possible.
 *** Repo: ***
 
-* GitHub repository: alx-frontend-javascript
-* Directory: 0x04-TypeScript
-* File: task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js
+* ***GitHub repository:*** `alx-frontend-javascript`
+* ***Directory:*** `0x04-TypeScript`
+* ***File:*** `task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js`
 
 
