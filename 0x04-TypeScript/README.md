@@ -34,7 +34,7 @@ Please use these files for the following tasks
 <details>
   <summary>Click to show/hide file contents</summary>
   
-```{
+{
   "name": "typescript_dependencies",
   "version": "1.0.0",
   "description": "",
@@ -65,7 +65,7 @@ Please use these files for the following tasks
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2"
   }
-}```
+}
 
 </details>
 
