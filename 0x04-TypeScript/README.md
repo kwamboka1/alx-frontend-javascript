@@ -33,7 +33,8 @@ Please use these files for the following tasks
 ### package.json
 <details>
   <summary>Click to show/hide file contents</summary>
-  
+
+```  
 {
   "name": "typescript_dependencies",
   "version": "1.0.0",
@@ -66,14 +67,16 @@ Please use these files for the following tasks
     "webpack-dev-server": "^3.8.2"
   }
 }
-
+```
 </details>
 
 ### .eslintrc.js
 
 <details>
   <summary>Click to show/hide file contents</summary>
-```module.exports =  {
+
+```
+module.exports =  {
   parser:  '@typescript-eslint/parser',
   extends:  [
     'plugin:@typescript-eslint/recommended',  // Uses the recommended rules from @typescript-eslint/eslint-plugin
@@ -85,14 +88,16 @@ Please use these files for the following tasks
   rules:  {
   },
 };
-  
+```
  
 </details>
 
 ### tsconfig.json
 <details>
   <summary>Click to show/hide file contents</summary>
-  {
+  
+```
+{
   "compilerOptions": {
     "outDir": "./dist/",
     "sourceMap": true,
@@ -103,13 +108,15 @@ Please use these files for the following tasks
     "moduleResolution": "node"
   }
 }
- 
+```
 </details>
 
 ### webpack.config.js
 <details>
   <summary>Click to show/hide file contents</summary>
- const path = require("path");
+
+``` 
+const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
@@ -146,7 +153,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   }
 }; 
- 
+``` 
 </details>
 
 
