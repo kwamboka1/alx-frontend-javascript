@@ -4,8 +4,8 @@
 
 ## Resources
 Read or Watch
-* TypeScript in 5 minutes
-* TypeScript documentation
+* [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+* [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -34,7 +34,6 @@ Please use these files for the following tasks
 <details>
   <summary>Click to show/hide file contents</summary>
   
-  ```
 {
   "name": "typescript_dependencies",
   "version": "1.0.0",
@@ -71,6 +70,7 @@ Please use these files for the following tasks
 </details>
 
 ### .eslintrc.js
+
 <details>
   <summary>Click to show/hide file contents</summary>
 ```module.exports =  {
@@ -88,6 +88,7 @@ Please use these files for the following tasks
   
  
 </details>
+
 ### tsconfig.json
 <details>
   <summary>Click to show/hide file contents</summary>
