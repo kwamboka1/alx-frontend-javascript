@@ -27,7 +27,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * Your code should use the ts extension when possible
 * The Typescript compiler should not show any warning or error when compiling your code
 
-*** Configuration Files ***
+***Configuration Files***
 Please use these files for the following tasks
 
 ***package.json***
