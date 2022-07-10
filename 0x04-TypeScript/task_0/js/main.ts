@@ -6,15 +6,15 @@ interface Student {
 }
 
 const student1: Student = {
-	firstNmae: "Mily",
-	lastNmae: "Makori",
+	firstName: "Mily",
+	lastName: "Makori",
 	age: 20,
 	location: "Nairobi"
 };
 
 const student2: Student = {
-        firstNmae: "Rob",
-        lastNmae: "Ombati",
+        firstName: "Rob",
+        lastName: "Ombati",
         age: 25,
         location: "Nairobi"
 };
