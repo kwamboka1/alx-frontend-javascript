@@ -84,3 +84,4 @@ function teachClass (todayClass: string) {
 
 console.log(teachClass('Math'));
 console.log(teachClass('chemistry'));
+
