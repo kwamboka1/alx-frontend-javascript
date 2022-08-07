@@ -1,17 +1,23 @@
-/* director interface */
+/* director interface 
+----------------------*/
+
 interface DirectorInterface {
   workFromHome(): string;
   getCoffeebreak(): string;
   workDirectorTasks(): string;
 }
-/* teacher interface */
+/* teacher interface 
+---------------------*/
+
 interface TeacherInterface {
   workFromHome(): string;
   getCoffeebreak(): string;
   workTeacherTasks(): string;
 }
 
-/* director class */
+/* director class 
+ -----------------*/
+
 class Director implements DirectorInterface {
 
   workFromHome(): string {
@@ -28,7 +34,9 @@ class Director implements DirectorInterface {
   }
 }
 
-/* teacher class */
+/* teacher class 
+-------------------*/
+
 class Teacher implements TeacherInterface {
   workFromHome(): string {
     return 'Cannot work from home';
@@ -57,7 +65,9 @@ console.log(createEmployee(1000));
 
 console.log(createEmployee('$500'));
 
-/* isDirector function */
+/* isDirector function 
+-----------------------*/
+
 const isDirector = (employee: Teacher | Director): boolean => employee instanceof Director;
 
 /* executeWork function */
@@ -70,7 +80,9 @@ console.log(executeWork(createEmployee(200)));
 console.log(executeWork(createEmployee(1000)));
 
 
-/* string literals */
+/* string literals 
+--------------------*/
+
 type Subjects = 'Math' | 'Chemistry';
 
 function teachClass (todayClass: string) {
